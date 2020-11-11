@@ -1,21 +1,22 @@
 {
-
   "manifest_version": 2,
   "name": "NQuiz",
   "version": "0.0.1",
 
-  "description": "turns news titles into quiz items",
+  "description": "adds capability to save words from articles",
 
   "icons": {
-    "48": "border-48.png"
+    "48": "icons/border-48.png"
   },
-
   "content_scripts": [
     {
-      "matches": ["https://www.nrk.no/*"],
-      "run_at" : "document_idle",
-      "js": ["inject.js"]
+      "matches": [
+        "https://www.nrk.no/*",
+        "https://nrkbeta.no/*",
+        "https://p3.no/*"
+      ],
+      "run_at": "document_idle",
+      "js": ["main.js"]
     }
   ]
-
 }
