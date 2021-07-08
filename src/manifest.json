@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "NQuiz",
+  "name": "nquizr",
   "version": "0.0.1",
 
-  "description": "adds capability to save words from articles",
+  "description": "todo",
 
   "icons": {
     "48": "icons/border-48.png"
@@ -16,7 +16,11 @@
         "https://p3.no/*"
       ],
       "run_at": "document_idle",
-      "js": ["main.js"]
-    }
-  ]
+      "js": ["main.js"],
+      "css": ["style.css"]
+    }    
+  ],
+  "permissions": [
+      "storage"
+    ]
 }
