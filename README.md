@@ -8,5 +8,6 @@ All added information is stored locally and is not shared accross network.
 - [ ] add a way to delete all texts and word list added by plugin
 
 
+### additional notes
 Plugin uses a pure Javascript implementation of SipHash from https://github.com/jedisct1/siphash-js ,
 particularly this script https://raw.githubusercontent.com/jedisct1/siphash-js/master/lib/siphash13.js.min .
