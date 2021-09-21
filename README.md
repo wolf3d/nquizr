@@ -4,6 +4,7 @@ _nquizr_ is a firefox extension that enables user to add notes and word lists to
 All added information is stored locally and is not shared accross network.
 
 #### User stories
+- [ ] add a way to delete a particular note completely
 - [ ] add a way to delete all texts and word list from particular article
 - [ ] add a way to delete all texts and word list added by plugin
 
