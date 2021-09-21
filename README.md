@@ -1,1 +1,1 @@
-# nquiz
+# nquizr
